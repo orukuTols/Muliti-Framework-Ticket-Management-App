@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.hero-section {
+  background-image: url('./assets/wave.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.landing-Card {
+  background-color: white;
+  padding-bottom: 1vh;
+  padding-top: 1vh;
+  border-radius: 3%;
+ min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+transition: all 0.3s ease-in-out;
+margin: 4px;
+
+}
+
+
+.landing-Card:hover {
+
+  transform: translateY(-1rem) scale(1.05); 
+  
+
+  box-shadow: 0 15px 30px rgba(125, 45, 255, 0.4); 
+  
+
+  border: 3px solid #3b82f6; 
+  
+
+  z-index: 10;
+}
+
+@media (max-width: 639px) {
+  .landing-Card {
+    width: 50vw; 
+    margin-bottom: 2vh;
+  }
+  .landing-Card:hover {
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+  }
+}
+
+@media (max-width: 439px) {
+  .landing-Card {
+    width: 70vw; 
+    margin-bottom: 2vh;
+    min-height: 100px;
+  }
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
