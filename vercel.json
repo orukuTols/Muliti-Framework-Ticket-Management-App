@@ -9,8 +9,5 @@
         "image": "node:lts-slim"
       }
     }
-  ],
-  "engines": {
-    "node": "20"
-  }
+  ]
 }
