@@ -1,0 +1,16 @@
+{
+  "buildCommand": "npm run build",
+  "installCommand": "npm install",
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "image": "node:lts-slim"
+      }
+    }
+  ],
+  "engines": {
+    "node": "20"
+  }
+}
