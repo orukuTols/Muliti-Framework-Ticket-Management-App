@@ -10,9 +10,10 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "postinstall": "npm rebuild esbuild" 
+    "postinstall": "npm rebuild esbuild"
   },
   "dependencies": {
+    "esbuild": "^0.25.11",
     "node": "^25.1.0",
     "vue": "^3.5.22",
     "vue-router": "^4.6.3"

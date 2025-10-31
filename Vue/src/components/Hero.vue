@@ -44,6 +44,7 @@ const navigateTo = (path) => {
   font-weight: bold; 
   margin-bottom: 1rem; 
   font-size: xx-large;
+  color: white;
 }
 
 @media (min-width: 1024px) {
